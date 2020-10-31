@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <h1>Update Item</h1> 
+<form action="/update"          method="post">
+    <label for="">name</label>
+     <input type="text" name="name">
+
+     <label for="">quantity</label>
+     <input type="text" name="quantity">
+
+    <label for="">destination</label>
+    <input type="text" name="destination">
+
+    <label for="">Notes</label>
+    <input type="text" name="notes">
+
+  <button>Update</button>
+
+    <br><br><br>
+  <table>
+
+  <tr>
+    <th>Name</th>
+    <th>Quantity</th>
+    <th>Destination</th>
+    <th>Notes</th>
+    
+  </tr>
+ 
+  
+  <% result.each do |item|%>
+  <tr>
+    <td><%=item["name"]%></td>
+    <td><%=item["quantity"]%></td>
+    <td><%=item["destination"]%></td>
+    <td><%=item["notes"]%></td>
+      <% end %>
+  </tr>
+  </table>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+<h1 style ="color: white">Bakers Inc. Welcome John Doe</h1>
+<h4>You have following items shipped out</h4>
+</div>
+
+<a href ="/create"><button>New</button>
+</a>
+<a href = '/update'><button>Edit</button></a>
+<a href = '/delete'><button>Remove</button></a>
+
+
+<table>
+
+  <tr>
+    <th>Name</th>
+    <th>Quantity</th>
+    <th>Destination</th>
+    <th>Notes</th>
+    
+  </tr>
+ 
+  
+  <% result.each do |item|%>
+  <tr>
+    <td><%=item["name"]%></td>
+    <td><%=item["quantity"]%></td>
+    <td><%=item["destination"]%></td>
+    <td><%=item["notes"]%></td>
+    
+      <% end %>
+  </tr>
+  </table>
+
+  <a href = "/session"><button>Logout</button></a>
+
+</body>
+</html>
+
+</body>
+</html>

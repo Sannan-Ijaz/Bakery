@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Delete Item</h1> 
+
+       <form action="/delete" method="post">
+ <label for="">name</label>
+
+  <input type="text" name='name'>
+
+    <button>delete</button>
+    </form>
+
+    <br>
+   <table>
+
+  <tr>
+    <th>Name</th>
+    <th>Quantity</th>
+    <th>Destination</th>
+    <th>Notes</th>
+    
+  </tr>
+ 
+  
+  <% result.each do |item|%>
+  <tr>
+    <td><%=item["name"]%></td>
+    <td><%=item["quantity"]%></td>
+    <td><%=item["destination"]%></td>
+    <td><%=item["notes"]%></td>
+      <% end %>
+  </tr>
+  </table>
+
+  <a href = "/landingpage"><button>Cancel</button></a>
+
+</body>
+</html>
+
