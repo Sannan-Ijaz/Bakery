@@ -17,7 +17,7 @@
 <p>HTML: To display different queries, HTML was used</p>
 <p>CSS: Styling was done through CSS</p>
 <h3>Wireframe</h3>
-<a href="https://whimsical.com/Py1jz4F6HjGk6b8cjq2rKi">Whimsical</a>
+<a href="https://whimsical.com/Py1jz4F6HjGk6b8cjq2rKi">Go to Wireframe</a>
 <h3>Improvements</h3>
 <p>There are a lot of improvements that can be done in the application to improve the user experience and usability. For example: in the future, a data insights table is to be added where the owner will be able to see their most popular items and get any feedback from the customers. </p>
 
