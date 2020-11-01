@@ -1,4 +1,4 @@
-<h1>Inventory Management Application for small business</h1>
+<h1>GA Bakers Inc</h1>
 
 <a href = "https://grim-mummy-95796.herokuapp.com">Link to App</a>
 <h2>Introduction</h2>
