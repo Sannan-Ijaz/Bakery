@@ -1,7 +1,7 @@
 <h1>GA Bakers Inc</h1>
 
 <a href = "https://grim-mummy-95796.herokuapp.com">Link to App</a> 
-user login: John Doe, Customer login: Tutts bakers, pass=abc;
+<p>user login: John Doe, Customer login: Tutts bakers, pass=abc</p>
 
 <h2>Introduction</h2>
 <p>GA Bakers Inc is an inventory management application which uses PostgreSQL and ruby to manage an owner's inventory of daily items. The customers can login and see theorders that are dispatched to them. The idea came from my mother who bakes cakes for family's birthday parties. Since I have a large family, my mother uses a notebook to write down her entries. The holistic idea was to build a platform where she could manage her business.</p>
